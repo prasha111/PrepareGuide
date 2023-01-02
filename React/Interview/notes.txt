@@ -1,1 +1,41 @@
 //Sample Text written
+useReducer Hook => 
+
+
+
+
+export default function App() {
+  const initialState = 0;
+  const reduce = (state, action) => {
+    switch (action) {
+      case "Incremenet":
+        return state + 1;
+      case "Decrement":
+        return state - 1;
+      default:
+        return state;
+    }
+  };
+  const [count, dispatch] = useReducer(reduce, initialState);
+  return (
+    <div className="App">
+      <h1>Hello CodeSandbox</h1>
+      <div>{count}</div>
+      <button
+        onClick={() => {
+          dispatch("Incremenet");
+        }}
+      >
+        Increment
+      </button>
+      <button
+        onClick={() => {
+          dispatch("Decrement");
+        }}
+      >
+        Decrement
+      </button>
+      <h2>Start editing to see some magic happen!</h2>
+    </div>
+  );
+}
