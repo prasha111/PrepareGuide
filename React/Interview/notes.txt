@@ -1,7 +1,15 @@
 //Sample Text written
 useReducer Hook => 
 
+reduce => logic which do actions
+ it is somewhat type of switch 
+ This is working by the dispatch function from , dispatch is returned from the usereducer hook.
+ use reducer took two arugements 1) reduce function 2) InitialState
 
+
+
+
+ //In this example we are updating the state(InitialState) 
 
 
 export default function App() {
