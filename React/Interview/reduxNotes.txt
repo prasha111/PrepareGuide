@@ -16,3 +16,5 @@ Rules for redux
 {
     Type:"buyCakes"
 }
+
+https://codesandbox.io/s/reduxsetup-r3plxt?file=/src/reduxContainer/bookStore.js

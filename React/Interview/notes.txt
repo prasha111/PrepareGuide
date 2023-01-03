@@ -47,3 +47,7 @@ export default function App() {
     </div>
   );
 }
+
+
+
+https://codesandbox.io/s/usereducerexample-5z590q
