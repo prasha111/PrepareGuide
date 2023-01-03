@@ -1,0 +1,18 @@
+MAIN PARTS OF REDUX 
+
+//
+STORE    ===   REDUCER    === ACTION
+
+Take an exaple of book store where a person want to buy a book (ACTION)
+so he say to the book store that Please give me a book and book store person (REDUCER) go to the store and make changes in the store where the books (STATES) are stored
+
+Rules for redux
+
+1)  The state of the store is a OBJECT TREE structure IN A SINGLE STORE
+{
+    numberOfBooks:10
+}
+2) ONLY way to change the state EMIT a action, (object describing the action)
+{
+    Type:"buyCakes"
+}
