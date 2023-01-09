@@ -1,1 +1,5 @@
 // when to use memo
+when a state chnage occuurs in some parent it cause parent to re-render and then it child also rerender , so we memoise the whole comomponent by memo
+
+
+https://codesandbox.io/s/rendering-parent-5nw7mq
