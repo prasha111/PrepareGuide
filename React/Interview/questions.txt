@@ -3,3 +3,15 @@ when a state chnage occuurs in some parent it cause parent to re-render and then
 
 
 https://codesandbox.io/s/rendering-parent-5nw7mq
+
+
+
+//routing
+
+//react-router-dom 6.4
+<Router>
+<Link to"./____">
+<Route path=""/>
+</Router>
+
+//if home like is ./ the in this case we use exact keyword
