@@ -50,4 +50,14 @@ export default function App() {
 
 
 // reducer 
-https://codesandbox.io/s/usereducerexample-5z590q
+https://codesandbox.io/s/usereducerexample-5z590q 
+
+
+
+
+
+//updating list of states and then updating it
+
+//
+
+
