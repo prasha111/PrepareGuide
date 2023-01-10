@@ -15,3 +15,15 @@ https://codesandbox.io/s/rendering-parent-5nw7mq
 </Router>
 
 //if home like is ./ the in this case we use exact keyword
+
+q) Why to use fraqments instead of dom 
+
+as div subconsititues a new dom element and result in rendering to prevent little more load we use fragments
+
+
+q) when we use  memo as refferential equality it checks everytime
+
+
+q) few methods to optimise the react App
+
+
