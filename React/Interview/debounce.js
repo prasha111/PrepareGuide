@@ -16,4 +16,4 @@ const optmiseDebounce = (func, delay) => {
 async function nameApi(){
     
 }
-const debounce = optmiseDebounce(nameApi, 1000)
+const debounce = optmiseDebounce(nameApi, 1000) 
