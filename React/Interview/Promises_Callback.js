@@ -81,7 +81,7 @@ firstNew.then((firstMessage)=>{
 
 
 Promise.all([]).then().catch()   //run all the promises in parrallel , if any one fails it will return the Promise (it will Promise failed)
-Promise.allSettled([])  // run all the promises and return all the promised irrespective if the promise is failed or fullfilled
+Promise.allSettled([])  // run all the promises and return all the promised irrespective if the promise is failed or fullfilled , (only case when all the promise failed)
 
 Promise.race([]).the().catch()   // return the first promise irrespective of fullfilled or failed  (it will show state of first promised resolved)
-Promise.any([]).then().catch() //   returun all the
+Promise.any([]).then().catch() //   returun all the any of the first fulfilled promise
